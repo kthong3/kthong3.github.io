@@ -10,3 +10,15 @@ header {
 	margin: 10px;
 }
 
+h1 {
+	font: 2em Georgia;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+}
+
+footer {
+	font: 1em Georgia;
+	text-align: center;
+}
+

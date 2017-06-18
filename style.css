@@ -63,3 +63,11 @@ table {
 	margin-left:auto; 
     margin-right:auto;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #FF6347;
+}

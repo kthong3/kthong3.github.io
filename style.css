@@ -1,3 +1,12 @@
 body {
-	background: orange;
+	background: white;
 }
+
+header {
+	border: 10px dashed #20B2AA;
+	padding: 10px;
+	text-align: center;
+	font: 2em Georgia;
+	margin: 10px;
+}
+

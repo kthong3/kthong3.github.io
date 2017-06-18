@@ -57,6 +57,13 @@ ul {
 	font: 1em Georgia;
 }
 
+ul#chicago {
+	color: #FFD700;
+	font: 1em Georgia;
+	font-weight: bold;
+	list-style-position: inside;
+}
+
 table {
 	color: white;
 	font: 1em Georgia;
@@ -69,5 +76,5 @@ a:link {
 }
 
 a:visited {
-    color: #FF6347;
+    color: #FFD700;
 }

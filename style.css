@@ -18,6 +18,8 @@ header {
 	font: 2em Georgia;
 	color: white;
 	margin: 10px;
+	width: 500px;
+	display: inline-block;
 }
 
 h1 {
@@ -55,6 +57,7 @@ p.food {
 ul {
 	color: white;
 	font: 1em Georgia;
+	list-style-position: inside;
 }
 
 ul#chicago {
@@ -77,4 +80,54 @@ a:link {
 
 a:visited {
     color: #FFD700;
+}
+
+@media screen and (max-width: 1500px){
+	header {
+		font-size: 2em;
+	}
+
+	h1, h2, h3, h4 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	ul {
+		font-size: 1em;
+	}
+
+	table {
+		font-size: 1em;
+	}
+
+	img {
+		width: 40%;
+	}
+
+	footer{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	html {
+		background-image: none;
+	}
+
+	header {
+		border: 5px dashed white;
+		width: 40%;
+	}
+
+	body {
+		font-size: .5em;
+		background-color: #8B0000;
+	}
+
+	img {
+		width: 30%;
+	}
 }

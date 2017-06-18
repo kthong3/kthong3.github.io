@@ -1,9 +1,18 @@
+html { 
+  background: url(food.jpg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+
+}
 body {
-	background: white;
+	text-align: center;
 }
 
 header {
-	border: 10px dashed #20B2AA;
+	border: 10px dashed white;
 	padding: 10px;
 	text-align: center;
 	font: 2em Georgia;

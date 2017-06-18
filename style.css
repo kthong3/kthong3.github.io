@@ -3,7 +3,7 @@ html {
   background-size: 80%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-color: black;
 
 }
@@ -12,15 +12,17 @@ body {
 }
 
 header {
-	border: 10px dashed white;
+	border: 10px dashed #DC143C;
 	padding: 10px;
 	text-align: center;
 	font: 2em Georgia;
+	color: white;
 	margin: 10px;
 }
 
 h1 {
 	font: 2em Georgia;
+	color: white;
 	text-align: center;
 	padding: 15px;
 	margin: 10px;
@@ -29,15 +31,35 @@ h1 {
 h2 {
 	font: 2em Helvetica;
 	font-weight: bold;
+	color: white;
 }
 
 h3 {
 	font: 2em arial;
 	font-weight: bold;
+	color: white;
 }
 
 footer {
 	font: 1em Georgia;
 	text-align: center;
+	color: white;
 }
 
+p.food {
+	color: white;
+	font: 1em Georgia;
+	font-weight: bold;
+}
+
+ul {
+	color: white;
+	font: 1em Georgia;
+}
+
+table {
+	color: white;
+	font: 1em Georgia;
+	margin-left:auto; 
+    margin-right:auto;
+}

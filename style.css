@@ -1,3 +1,133 @@
+html { 
+  background: url(food.jpg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-color: black;
+
+}
 body {
-	background: orange;
+	text-align: center;
+}
+
+header {
+	border: 10px dashed #DC143C;
+	padding: 10px;
+	text-align: center;
+	font: 2em Georgia;
+	color: white;
+	margin: 10px;
+	width: 500px;
+	display: inline-block;
+}
+
+h1 {
+	font: 2em Georgia;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+}
+
+h2 {
+	font: 2em Helvetica;
+	font-weight: bold;
+	color: white;
+}
+
+h3 {
+	font: 2em arial;
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+	font: 1em Georgia;
+	text-align: center;
+	color: white;
+}
+
+p.food {
+	color: white;
+	font: 1em Georgia;
+	font-weight: bold;
+}
+
+ul {
+	color: white;
+	font: 1em Georgia;
+	list-style-position: inside;
+}
+
+ul#chicago {
+	color: #FFD700;
+	font: 1em Georgia;
+	font-weight: bold;
+	list-style-position: inside;
+}
+
+table {
+	color: white;
+	font: 1em Georgia;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #FFD700;
+}
+
+@media screen and (max-width: 1500px){
+	header {
+		font-size: 2em;
+	}
+
+	h1, h2, h3, h4 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	ul {
+		font-size: 1em;
+	}
+
+	table {
+		font-size: 1em;
+	}
+
+	img {
+		width: 40%;
+	}
+
+	footer{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	html {
+		background-image: none;
+	}
+
+	header {
+		border: 5px dashed white;
+		width: 40%;
+	}
+
+	body {
+		font-size: .5em;
+		background-color: #8B0000;
+	}
+
+	img {
+		width: 30%;
+	}
 }

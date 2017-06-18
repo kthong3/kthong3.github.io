@@ -17,6 +17,16 @@ h1 {
 	margin: 10px;
 }
 
+h2 {
+	font: 2em Helvetica;
+	font-weight: bold;
+}
+
+h3 {
+	font: 2em arial;
+	font-weight: bold;
+}
+
 footer {
 	font: 1em Georgia;
 	text-align: center;
